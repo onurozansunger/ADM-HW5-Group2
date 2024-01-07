@@ -9,7 +9,7 @@ This project was carried out by Group 2 from Algorithmic Methods for Data Mining
 | Onur Ozan Sunger| sunger.2113119@studenti.uniroma1.it|
 | Lorenzo Incoronato| incoronato.1916863@studenti.uniroma1.it|
 | Umut Altun | altunumut13@gmail.com |
-| Ragno Tim| ragno.tim2@gmail.com|
+| Tim Ragno | ragno.tim2@gmail.com|
 | | |
 ## Question 1
 In this assignment, we will be working with a dataset containing information about a group of papers and their citation relationships. The primary objectives are to create two graphs:
