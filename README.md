@@ -148,6 +148,8 @@ In this question, you need to use command line tools to answer specific question
 3. Execute the `CommandLine.sh` script.
 4. Include a screenshot of the script's output in the notebook for evaluation.
 
+### IMPORTANT NOTE: We are using the txt and graph files we obtained from Q1 for this CLQ.
+
 ## Algorithmic Question
  ### Part A: Team Selection for Sports Championship
 
