@@ -130,10 +130,24 @@ To implement this, follow these steps:
   - Plots of the original graph, community structure, and final graph
 
 ## Command Line Question (CLQ)
-For this Command Line Question (CLQ), we'll need to use command line tools to analyze a dataset and answer specific questions about Netflix usage.
-1. Find the Most-Watched Netflix Title: Using command line tools, we will need to process the dataset to determine which Netflix title has been watched the most. This might involve sorting, counting, and filtering operations.
-2. Calculate Average Time Between Clicks: We will calculate the average time interval between subsequent clicks on Netflix.com. This will likely require us to manipulate timestamp data and calculate averages.
-3. Identify the User with the Most Time Spent on Netflix: We'll need to aggregate data to find out which user has spent the most time watching Netflix. This involves summing up watch times per user and identifying the user with the maximum total.
+### Task Summary
+
+In this question, you need to use command line tools to answer specific questions related to the previously created directed and unweighted graph, which is the Citation graph:
+
+1. Identify if there's any node that acts as an important "connector" between different parts of the graph.
+2. Examine how the degree of citation varies among the graph nodes.
+3. Calculate the average length of the shortest path among nodes.
+
+### Implementation Steps
+
+1. Utilize command line tools in an appropriate environment (e.g., AWS, local PC command line, Jupyter notebook).
+2. Create a script named `CommandLine.sh` with the necessary commands to perform the following tasks:
+   - Analyze the graph to find nodes that act as connectors between different parts.
+   - Analyze the degree of citation for each node.
+   - Calculate the average length of the shortest path among nodes.
+3. Execute the `CommandLine.sh` script.
+4. Include a screenshot of the script's output in the notebook for evaluation.
+
 ## Algorithmic Question
  In this problem, we need to help Federico maximize his final score at a university with a unique grading system. We will:
 1. Write a recursive algorithm to calculate the highest possible final score Federico can achieve. The code should take his initial score and a list of exam scores as input.
