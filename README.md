@@ -149,10 +149,28 @@ In this question, you need to use command line tools to answer specific question
 4. Include a screenshot of the script's output in the notebook for evaluation.
 
 ## Algorithmic Question
- In this problem, we need to help Federico maximize his final score at a university with a unique grading system. We will:
-1. Write a recursive algorithm to calculate the highest possible final score Federico can achieve. The code should take his initial score and a list of exam scores as input.
-2. Analyze the time complexity of our recursive solution using big-O notation, demonstrating whether or not it is efficient.
-3. If the recursive solution is found to be inefficient, optimize the code using a different approach, and again analyze its time complexity to prove the improvement.
-4. Challenge me to provide a third, potentially more optimized implementation, and analyze its time complexity.
-We will use example inputs and outputs to test and demonstrate the functionality of the code. The challenge includes not only implementing the algorithms but also analyzing and optimizing their efficiency.
+ ### Part A: Team Selection for Sports Championship
 
+- Goal: Select the best athletes for a sports team from a pool of candidates.
+- Athletes: Each athlete has a unique identifier and various sports skills.
+- Team's Objective: Maximize the team's overall score by assigning athletes to roles based on their skills.
+- Team's Score: The sum of the skill scores of its members in their assigned roles.
+- Note: Assigning athletes to roles not listed in their skills results in a contribution of 0 to the global score.
+
+**Tasks:**
+
+1. Determine the maximum possible global score for Team Rome given the list of candidates.
+2. Provide a solution that maximizes the team's score.
+
+### Part B: Effective Team Formation
+
+- Objective: Form a team of individuals who can work effectively together to accomplish a specific task.
+- Skills: Each individual has a set of skills.
+- Goal: Find a subset of individuals such that every required skill is exhibited by at least one team member.
+- Cooperation: Effort is represented as edge weights in an undirected weighted graph, where lower weights indicate better cooperation.
+
+**Tasks:**
+
+1. Prove or disprove that the problem is NP-complete.
+2. Develop a heuristic to approximate the best solution.
+3. Determine the time complexity of the proposed heuristic.
