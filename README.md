@@ -35,56 +35,100 @@ To implement this, follow these steps:
 6. Populate the Collaboration Graph with weighted, undirected edges representing collaborations among authors of the selected papers.
 7. Analyze and visualize the resulting graphs as needed.
 ## Question 2
-## Backend Implementation
-### Functionality 1 - Graph's Features
 
-Input: The graph, Name of the graph
-Output:
-Number of nodes in the graph
-Number of edges in the graph
-Graph density
-Graph degree distribution
-Average degree of the graph
-Graph hubs (nodes with degrees > 95th percentile)
-Whether the graph is dense or sparse
-### Functionality 2 - Nodes' Contribution
+### Backend Implementation
 
-Input: The graph, A node (paper/author), Name of the graph
-Output: Centrality measurements (Betweeness, PageRank, ClosenessCentrality, DegreeCentrality)
-### Functionality 3 - Shortest Ordered Walk
+#### Functionality 1 - Graph's Features
 
-Input: The collaboration graph, Sequence of authors, Initial and end nodes
-Output: Shortest walk of collaborations and papers
-### Functionality 4 - Disconnecting Graphs
+- **Input:**
+  - The graph
+  - Name of the graph
+- **Output:**
+  - Number of nodes in the graph
+  - Number of edges in the graph
+  - Graph density
+  - Graph degree distribution
+  - Average degree of the graph
+  - Graph hubs (nodes with degrees > 95th percentile)
+  - Whether the graph is dense or sparse
 
-Input: The graph, Two papers, Top authors
-Output: Minimum number of edges to disconnect the graph into two subgraphs
-### Functionality 5 - Extracting Communities
+#### Functionality 2 - Nodes' Contribution
 
-Input: The graph, Two papers, Top papers
-Output: Minimum number of edges to form communities, List of communities, Whether Paper_1 and Paper_2 belong to the same community
-## Frontend Implementation
-### Visualization 1 - Visualize Graph Features
+- **Input:**
+  - The graph
+  - A node (paper/author)
+  - Name of the graph
+- **Output:**
+  - Centrality measurements
+    - Betweeness
+    - PageRank
+    - ClosenessCentrality
+    - DegreeCentrality
 
-Table with general graph information
-Table listing graph hubs
-Plots for citation distribution (Citation graph) and collaboration count (Collaboration graph)
-### Visualization 2 - Visualize Node's Contribution
+#### Functionality 3 - Shortest Ordered Walk
 
-Table with centrality values based on different measurements
-### Visualization 3 - Visualize Shortest Ordered Route
+- **Input:**
+  - The collaboration graph
+  - Sequence of authors
+  - Initial and end nodes
+- **Output:**
+  - Shortest walk of collaborations and papers
 
-Papers needed for the shortest walk
-Plot with identified nodes and edges in the shortest walk
-### Visualization 4 - Visualize Disconnected Graph
+#### Functionality 4 - Disconnecting Graphs
 
-Number of links to disconnect
-Plot of the original graph and after removing links with identified nodes
-### Visualization 5 - Visualize Communities
+- **Input:**
+  - The graph
+  - Two papers
+  - Top authors
+- **Output:**
+  - Minimum number of edges to disconnect the graph into two subgraphs
 
-Number of links to remove
-Table depicting communities and papers
-Plots of the original graph, community structure, and final graph
+#### Functionality 5 - Extracting Communities
+
+- **Input:**
+  - The graph
+  - Two papers
+  - Top papers
+- **Output:**
+  - Minimum number of edges to form communities
+  - List of communities
+  - Whether Paper_1 and Paper_2 belong to the same community
+
+### Frontend Implementation
+
+#### Visualization 1 - Visualize Graph Features
+
+- **Tables:**
+  - General graph information
+  - Graph hubs
+- **Plots:**
+  - Citation distribution (Citation graph)
+  - Collaboration count (Collaboration graph)
+
+#### Visualization 2 - Visualize Node's Contribution
+
+- **Table:**
+  - Centrality values based on different measurements
+
+#### Visualization 3 - Visualize Shortest Ordered Route
+
+- **Output:**
+  - Papers needed for the shortest walk
+  - Plot with identified nodes and edges in the shortest walk
+
+#### Visualization 4 - Visualize Disconnected Graph
+
+- **Output:**
+  - Number of links to disconnect
+  - Plot of the original graph and after removing links with identified nodes
+
+#### Visualization 5 - Visualize Communities
+
+- **Output:**
+  - Number of links to remove
+  - Table depicting communities and papers
+  - Plots of the original graph, community structure, and final graph
+
 ## Command Line Question (CLQ)
 For this Command Line Question (CLQ), we'll need to use command line tools to analyze a dataset and answer specific questions about Netflix usage.
 1. Find the Most-Watched Netflix Title: Using command line tools, we will need to process the dataset to determine which Netflix title has been watched the most. This might involve sorting, counting, and filtering operations.
