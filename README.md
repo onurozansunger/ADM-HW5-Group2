@@ -130,6 +130,8 @@ To implement this, follow these steps:
   - Plots of the original graph, community structure, and final graph
 
 ## Command Line Question (CLQ)
+### IMPORTANT NOTE: We are using the txt and graph files we obtained from Q1 for this CLQ.
+
 ### Task Summary
 
 In this question, you need to use command line tools to answer specific questions related to the previously created directed and unweighted graph, which is the Citation graph:
@@ -147,8 +149,6 @@ In this question, you need to use command line tools to answer specific question
    - Calculate the average length of the shortest path among nodes.
 3. Execute the `CommandLine.sh` script.
 4. Include a screenshot of the script's output in the notebook for evaluation.
-
-### IMPORTANT NOTE: We are using the txt and graph files we obtained from Q1 for this CLQ.
 
 ## Algorithmic Question
  ### Part A: Team Selection for Sports Championship
